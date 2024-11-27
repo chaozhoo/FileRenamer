@@ -6,7 +6,6 @@ env/
 # PyInstaller打包文件
 build/
 dist/
-*.spec
 
 # Python编译缓存
 __pycache__/

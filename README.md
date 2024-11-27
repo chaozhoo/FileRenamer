@@ -1,7 +1,7 @@
 # FileRenamer
  Find the specified characters contained in multiple local files and batch modify their names.
  
-**[点击此处直接下载](https://github.com/chaozhoo/FileRenamer/releases/download/v0.2/FileRenamer.exe)**
+**[点击此处直接下载](https://github.com/chaozhoo/FileRenamer/releases/download/v0.2/LocalRenamer.exe)**
 
 ### Find the specified characters contained in multiple local files and batch modify their names.
 

@@ -17,5 +17,6 @@
 打包用这个，先建立虚拟环境 
 1. python -m venv venv // 建立虚拟环境  
 2. venv\Scripts\activate // 激活虚拟环境
-3. pip install pyinstaller // 安装pyinstaller
-4. pyinstaller LocalRenamer.spec // 打包 -->
+3. pip install -r requirements.txt // 安装依赖
+4. pip install pyinstaller // 安装pyinstaller
+5. pyinstaller LocalRenamer.spec // 打包 -->

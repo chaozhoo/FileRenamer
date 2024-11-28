@@ -28,7 +28,7 @@ class FileRenamer(QMainWindow):
             print(f"加载样式表失败: {str(e)}")
 
     def initUI(self):
-        self.setWindowTitle("FileRenamer 文件名查改助手")
+        self.setWindowTitle("FileRenamer 文件名查改助手 by Oahc")
         self.setMinimumSize(600, 400)
 
         # 创建中央部件

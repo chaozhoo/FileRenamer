@@ -1,7 +1,7 @@
 # FileRenamer
  Find the specified characters contained in multiple local files and batch modify their names.
  
-**[点击此处直接下载](https://github.com/chaozhoo/FileRenamer/releases/download/v0.1/FileRenamer.exe)**
+**[点击此处直接下载](https://github.com/chaozhoo/FileRenamer/releases/download/v0.2/FileRenamer.exe)**
 
 ### Find the specified characters contained in multiple local files and batch modify their names.
 
@@ -10,6 +10,8 @@
 1. 支持直接选择多个文件
 2. 支持直接递归遍历根目录下的所有子孙后代路径中的文件
 3. 修改后会显示数据统计
+4. 支持不区分大小写
+5. 支持正则表达式
 
 <!-- ### 打包流程
 打包用这个，先建立虚拟环境 

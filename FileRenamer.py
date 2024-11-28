@@ -16,11 +16,16 @@ class FileRenamer(QMainWindow):
 
     def load_stylesheet(self):
         try:
-            with open('style.qss', 'r', encoding='utf-8') as f:
+            if hasattr(sys, '_MEIPASS'):  # 判断是否是打包后的环境
+                qss_path = os.path.join(sys._MEIPASS, 'style.qss')
+            else:  # 开发环境
+                qss_path = 'style.qss'
+            
+            with open(qss_path, 'r', encoding='utf-8') as f:
                 style = f.read()
                 self.setStyleSheet(style)
         except Exception as e:
-            print(f"加载样式表失败: {e}")
+            print(f"加载样式表失败: {str(e)}")
 
     def initUI(self):
         self.setWindowTitle("FileRenamer 文件名查改助手")

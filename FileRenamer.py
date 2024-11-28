@@ -6,7 +6,7 @@ from typing import List, Tuple
 class FileRenamer:
     def __init__(self, master):
         self.master = master
-        master.title("文件名查文改字")
+        master.title("FileRenamer 文件名查改助手")
         master.geometry("500x400")
 
         self.files_to_rename: List[str] = []

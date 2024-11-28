@@ -3,7 +3,7 @@
 block_cipher = None
 
 a = Analysis(
-    ['LocalRenamer.py'],
+    ['FileRenamer.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -26,7 +26,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='LocalRenamer',
+    name='FileRenamer',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

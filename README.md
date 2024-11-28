@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/eda3c4d2-fb92-409d-baee-f53ed69419f4)# FileRenamer
+# FileRenamer
  Find the specified characters contained in multiple local files and batch modify their names.
  
 **[点击此处直接下载](https://github.com/chaozhoo/FileRenamer/releases/download/v0.1/FileRenamer.exe)**

@@ -3,7 +3,7 @@
 block_cipher = None
 
 a = Analysis(
-    ['LocalRenamer.py'],
+    ['FileRenamer.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -24,7 +24,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='LocalRenamer',
+    name='FileRenamer',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -44,5 +44,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='LocalRenamer',
+    name='FileRenamer',
 ) 

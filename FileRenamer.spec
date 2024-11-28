@@ -6,7 +6,7 @@ a = Analysis(
     ['FileRenamer.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('style.qss', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
